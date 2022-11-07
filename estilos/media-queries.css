@@ -44,9 +44,10 @@
     section#login > div#imagem {
         display: block;
         background: #5f2c82 url(../imagens/pexels-marcela-toledo-5610083.jpg) no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: top right;
-        height: 85vh;
+        height: 80%;
+        
     }
     
     section#formulario {
