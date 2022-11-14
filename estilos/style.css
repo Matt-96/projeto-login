@@ -20,7 +20,7 @@ body {
 div#container {
     background-color: white;
     width: 300px;
-    height: 530px;
+    height: 520px;
     border: 2px solid #49a09d;
     position: absolute ;
     left: 50%;
@@ -65,7 +65,12 @@ input[type="submit"] {
     padding: 5px;
     margin-bottom: 5px;
     transform: translate(0%, 0%);
+    cursor: pointer;
     
+}
+
+input[type="submit"]:hover {
+    background-color: #49a09d;
 }
 
 div#login {
@@ -83,6 +88,11 @@ button {
     padding: 5px;
     border-radius: 8px;
     width: 285px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #49a09d;
 }
 
 div#botoes {
