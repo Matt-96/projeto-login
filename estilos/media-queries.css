@@ -5,6 +5,7 @@
     
     section#login {
         width: 80vw;
+        height: 300px;
 
     }
     section#login > div#imagem {
@@ -22,15 +23,20 @@
     body { background-image: linear-gradient(to top, #49a09d,#5f2c52);}
 
     section#login {
-        width: 950px;
+        width: 750px;
+        height: 350px;
+        
     }
 
+
+    
     div#formulario > h1 {
         font-size: 2em;
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0 px;
     }
 
     div#imagem {
@@ -38,21 +44,21 @@
         width: 50%;
         height: 100%;
         background:black;
+        margin-left: 5px;
+        
         
     }
 
     section#login > div#imagem {
         display: block;
-        background: #5f2c82 url(../imagens/pexels-marcela-toledo-5610083.jpg) no-repeat;
-        background-size: 100%;
-        background-position: top right;
-        height: 80%;
+        height: 100%;
+        float: right;
         
     }
     
     section#formulario {
         float: left;
         width: 50%;
-        
-    }
+         }
+         
 }
