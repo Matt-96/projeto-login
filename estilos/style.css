@@ -37,6 +37,8 @@ div.img-content {
     background: url(../imagens/predio.jpg) no-repeat center left;
     background-size: cover;
     height: 200px;
+    border-radius: 0px 10px 10px 0px;
+    
 }
 
 h1 {
@@ -65,10 +67,11 @@ input {
 }
  
 input:focus {
-    background-color: #49a09d;
+    background-color:#5f2c82;
 }
 
 input[type="submit"] {
+    background-color: #49a09d;
     width: 285px;
     padding: 5px;
     margin-bottom: 5px;
@@ -78,7 +81,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #49a09d;
+    background-color: #7ce9e5;
 }
 
 div#login {
@@ -93,15 +96,14 @@ div#pass {
 }
 
 button {
+    background-color: #49a09d;
     padding: 5px;
     border-radius: 8px;
     width: 285px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #49a09d;
-}
+
 
 div#botoes {
     transform: translate(0%, 60%);
@@ -113,4 +115,8 @@ span {
     transform: translate(-40%, 90%);
     padding: 5px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+}
+
+div#pass span {
+    transform: translate(73%,226%);
 }

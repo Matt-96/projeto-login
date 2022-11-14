@@ -5,10 +5,18 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
         
     }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    p {
+        font-size: 1.3em;
+    }
     div#container {
         background-color: white;
-        width: 500px;
-        height: 310px;
+        width: 600px;
+        height: 410px;
         border: 1px solid black;
         position: absolute ;
         left: 50%;
@@ -23,12 +31,56 @@
         background-size: cover;
         width: 40%;
         height: 100%;
-        float: right;
-        
-        
+        float: right;  
+    }
+
+    form {
+        transform: translate(0%, -20%);
+       
+    }
+    /*Inputs*/
+    input {
+        height: 25px;
+        width: 290px;
+        transform: translate(8%,190%);
+    }
+
+    div#login {
+        transform: translate(0%,-120%);
+    }
+
+    div#pass {
+        padding: 0px;
+        transform: translate(-6%,-50%);
+    }
+
+
+
+    /*Botões*/
+    div#botoes {
+        transform: translate(-1%, 150%);
         
     }
 
+    input[type="submit"] {
+       background-color: #49a09d;
+        height: 40px; 
+        width: 350px;  
+    }
+
+    button {
+        background-color: #49a09d;
+        height: 40px;
+        width: 350px;
+    }
+
+    button:hover {
+        background-color: #7ce9e5;
+    }
+    
+    span {
+        transform: translate(-40%, 300%);
+    }
 }
 
 
