@@ -16,6 +16,10 @@ body {
     background-color:#5f2c82;
 }
 
+main {
+    width: 100vw;
+    height: 100vh;
+}
 
 div#container {
     background-color: white;
@@ -60,6 +64,10 @@ input {
     box-shadow: 1px 0pxpx 0px rgba(0, 0, 0, 0.171);
 }
  
+input:focus {
+    background-color: #49a09d;
+}
+
 input[type="submit"] {
     width: 285px;
     padding: 5px;
