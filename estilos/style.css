@@ -30,7 +30,7 @@ div#container {
 }
 
 div.img-content {
-    background: url(/imagens/predio.jpg) no-repeat center left;
+    background: url(../imagens/predio.jpg) no-repeat center left;
     background-size: cover;
     height: 200px;
 }
