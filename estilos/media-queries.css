@@ -31,46 +31,5 @@
 
 }
 
-@media (min-width:1440px) {
-    body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-        
-    }
-    div#container {
-        background-color: white;
-        width: 800px;
-        height: 400px;
-        border: 1px solid black;
-        position: absolute ;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%,-50%);
-        border-radius: 10px;
-        float: right;
-    }
 
-    div.img-content {
-        background: url(../imagens/predio.jpg) no-repeat center left;
-        background-size: cover;
-        width: 40%;
-        height: 100%;
-        float: left;
-    }
-    div#login {
-       
-        transform: translate(10%,200%);
-    }
-
-    div#pass {
-        transform: translate(10%,200%);   
-    }
-
-    span {
-        transform: translate(25%,25%);
-    }
-
-    div#botoes {
-        transform: translate(16%,250%);
-    }
-}
 
