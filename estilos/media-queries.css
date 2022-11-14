@@ -16,7 +16,7 @@
     div#container {
         background-color: white;
         width: 600px;
-        height: 430px;
+        height: 420px;
         border: 1px solid black;
         position: absolute ;
         left: 50%;
@@ -81,7 +81,12 @@
     span {
         transform: translate(-40%, 300%);
     }
+
+    div#pass span {
+        transform: translate(73%,226%);
+    }
 }
+
 
 
 
