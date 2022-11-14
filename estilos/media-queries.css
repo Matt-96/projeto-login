@@ -31,7 +31,7 @@
 
 }
 
-@media (min-width:1024px) {
+@media (min-width:1440px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
         
@@ -56,9 +56,21 @@
         height: 100%;
         float: left;
     }
+    div#login {
+       
+        transform: translate(10%,200%);
+    }
+
+    div#pass {
+        transform: translate(10%,200%);   
+    }
 
     span {
         transform: translate(25%,25%);
+    }
+
+    div#botoes {
+        transform: translate(16%,250%);
     }
 }
 
