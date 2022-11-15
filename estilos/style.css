@@ -69,9 +69,6 @@ input {
     
 }
  
-input:focus {
-    background-color:#5f2c82;
-}
 
 input[type="submit"] {
     background-color: #49a09d;
